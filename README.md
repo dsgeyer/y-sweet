@@ -27,6 +27,10 @@ The Y-Sweet server can be used by any Yjs app, or you can use our opinionated st
 
 Y-Sweet is MIT-licensed, and was created by [Jamsocket](https://jamsocket.com).
 
+## Prerequisites
+
+- Node.js 18.17+ (Node 20 LTS recommended) for building the JavaScript workspaces, debugger, and examples. The Next.js apps and the `y-sweet` npm installer rely on the built-in `fetch` available in modern Node versions.
+
 ## Getting started
 
 The easiest way to start a Y-Sweet project is with the `create-y-sweet-app` command line tool:
